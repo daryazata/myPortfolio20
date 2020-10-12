@@ -25,21 +25,23 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+      {/* <Header siteTitle={data.site.siteMetadata?.title || `Title`} /> */}
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+
+          display:"flex",
+          flexDirection:"column",
+          minHeight:"100vh"
         }}
       >
-        <main>{children}</main>
+        <main 
+        style={{flexGrow:1}}
+        >{children}</main>
+
         <footer style={{
           marginTop: `2rem`
         }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()}, Darya Zatakova
         </footer>
       </div>
     </>
