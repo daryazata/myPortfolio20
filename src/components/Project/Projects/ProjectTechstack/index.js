@@ -14,7 +14,7 @@ export default function ProjectTechstack({techstack}) {
             if(key==ts){
 
                 return(
-                    <img style={style.image_techstack} src ={techstack_all[key]}/>
+                    <img key={index} style={style.image_techstack} src ={techstack_all[key]}/>
                 )
             }
         }
