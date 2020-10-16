@@ -3,17 +3,20 @@ import PropTypes from "prop-types"
 import React from "react"
 import style from './style'
 import { BsBraces } from 'react-icons/bs';
+import Paragraph from "../../../Paragraph";
 
-const ProjectDescription = ({ project }) =>{
-  console.log(project)
+const ProjectDescription = ({  description }) =>{
+  console.log(description?.description)
   return (
  
     <div className="project" style={style.project} >
-        <h2>{`${project?.title}:`}</h2>
-        <p>{project?.description}</p>
-        <h3> Lets go for a <BsBraces />? </h3>
-        <button style={style.button_demo}>Live Demo</button>
-        <button style={style.button_demo}>Source</button>
+        <h2>{`${description?.title}:`}</h2>
+        <Paragraph text={description?.description}/>
+       
+       
+     {description?.live_demo && <button style={style.button_demo}> <a target="_blank" href={description?.live_demo}>Live Demo</a></button>} 
+     {description?.github && <button style={style.button_demo}> <a target="_blank" href={description?.github}>Github</a></button>} 
+     
     </div>
 )} 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import style from './style'
 import techstack_all from '../../../../data/techstack'
-
+import './style.css'
 
 
 export default function ProjectTechstack({techstack}) {
@@ -14,7 +14,7 @@ export default function ProjectTechstack({techstack}) {
             if(key==ts){
 
                 return(
-                    <img key={index} style={style.image_techstack} src ={techstack_all[key]}/>
+                    <img className='stack_logo' key={index} style={style.image_techstack} src ={techstack_all[key]}/>
                 )
             }
         }

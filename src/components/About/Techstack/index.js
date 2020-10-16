@@ -13,7 +13,15 @@ export default function TechstackImage() {
     )
     return (
         <>
-        {techstack_list}
+        <h2 style={{fontFamily: 'Quicksand, sans-serif',
+                        fontWeight:'bold',
+                        margin:'3rem 0'
+    
+    }}   >Technologies I worked with:</h2>
+        <div>
+            
+            {techstack_list}
+            </div>
         </>
 
     )

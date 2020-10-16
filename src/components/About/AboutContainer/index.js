@@ -7,8 +7,8 @@ import style from './style'
 export default function AboutContainer() {
     return (
         <div style={style.container}>
-           <h2 >Hi there, Im Darya!</h2> 
-    
+           <h2 style={style.container_h2} >Hi there, Im Darya!</h2> 
+
     <Paragraph/>
     <TechstackImage/>
 

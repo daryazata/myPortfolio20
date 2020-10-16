@@ -11,5 +11,6 @@ export default {
         fontFamily: 'Sora, sans-serif',
         justifyContent:'space-around'
         // borderRadius:'1rem',
+
     }
 }

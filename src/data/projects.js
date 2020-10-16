@@ -3,16 +3,15 @@ const projects =[
     {
         description:{
 
-            title:"React App 1",
-            description:`Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
-            sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam 
-            erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-             Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
-            .`,
+            title:"Realtime Blog Application with AWS and GraphQL",
+            description:['This is a  real-time blogging application with serverless backend API.', ` Front-End: React.js`, ` Back-End: AWS Amplify, AWS AppSync, GraphQL
+            `,`Features: comments and likes , real-time subscriptions (AWS AppSync), user authentications (Amazon Cognito). 
+            `],
+            github:'https://github.com/daryazata/graphQl-amplify-blog',
+            live_demo:''
         },
         //1-react 2-node 5- amplify
-        techstack:['react','node','amplify','js']
+        techstack:['graphql','aws_amplify','js_es6','react', 'aws_appsync','aws_dynamo_db']
 
 
 
@@ -21,7 +20,7 @@ const projects =[
         description:{
 
             title:"React App 2",
-            description:"THis was my second react app ",
+            description:["THis was my second react app "],
         },
         techstack:['node','amplify','js']
 
@@ -31,7 +30,7 @@ const projects =[
         description:{
 
             title:"React App 1",
-            description:"THis was my first react app ",
+            description:["THis was my first react app "],
         },
         techstack:['node','amplify','ts']
 
@@ -41,7 +40,7 @@ const projects =[
         description:{
 
             title:"React App 2",
-            description:"THis was my second react app ",
+            description:["THis was my second react app "],
         }
 
 

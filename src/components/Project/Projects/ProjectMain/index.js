@@ -10,7 +10,7 @@ export default function OneProjectMain({project}) {
     return (
         <div className='container' style={style.container}>
 
-            <ProjectDescription project={project.description} />
+            <ProjectDescription description={project.description} />
             <ProjectTechstack techstack={project.techstack}/>
         </div>
       

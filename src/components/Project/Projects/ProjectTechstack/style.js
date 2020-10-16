@@ -7,7 +7,8 @@ const style = {
         padding:'1rem'
     },
     image_techstack:{
-        width:'10rem'
+        width:'7rem',
+        margin:'1rem'
     }
 }
 

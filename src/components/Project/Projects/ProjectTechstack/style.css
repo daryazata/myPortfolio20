@@ -1,0 +1,9 @@
+.stack_logo{
+
+    -webkit-transition: -webkit-transform 1s;
+}
+
+.stack_logo:hover{
+    -webkit-transform: rotate(360deg) translate(0);
+
+}

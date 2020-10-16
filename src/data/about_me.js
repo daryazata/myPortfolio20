@@ -7,26 +7,26 @@ export default {
 
     'first_programm':`My programming journey started with the programming language C#.
              With C# I developed my first windows demo applications as study assignments. 
-             After 3.rd semester (March 2018) I started to work as a Web Developer (full- and part- time) 
-             in a call -center I previously worked as an agent. Here I worked with classic web development techstack: Front-End: HTML , CSS , JS, jQuery, Bootstrap. 
-                On the Back-End we worked with PHP , Yii (PHP Framework), as well as MSSQL Database.`,
+             During my studies I started to work as a Web Developer.
+I worked with classic web development techstack: Front-End: HTML, CSS, JS, jQuery, Bootstrap. On the Back-End we worked with PHP , Yii (PHP Framework) and MSSQL Database.
+`,
 
     'compulsory_internship':`In september 2019 I started my compulsory internship
                          in a company with a power supply related field. Here my task was to start
                               designing a relational database (MSSQL) from scratch. I also implemented a Landing Page
-                             and cookie banner frem a given design. Here I worked with PHP, JS, CSS and SASS.`,
+                             and cookie banner frem a given design. Here I worked with PHP, JS, CSS and SASS.
+                             I also implemented a Landing Page and cookie banner. As well some small applications in C#.`,
 
-    'tentamus':`When Corona started I found a new job in the
+    'tentamus':`When Corona started I luckily found a new job in the
              company where I work now (Tentamus Analytics GmbH). Here 
-             I was working on creating and improving of existing interfaces for the 
-             companies software LIMS 2. I was working with Groovy, which is considered
-              to be a Java dialect. Furthermore I worked on deploying an existing
+             I was working on creating and improving of existing interfaces written in Java and Groovy. Groovy  is considered
+              to be a Java dialect. I also worked on deploying an existing
                  React Native Mobile App to productive server, making the app available 
                  for users on android devices.`,
                 
    'BA': `In summer 2020 I started writing my Bachelor Thesis, here I started to develop a Web 
             Application for the companies logistic department.
-             This is a prototype of a full-stack application, that I developed from scratch. 
+            I started to develope this prototype full-stack application  from scratch. 
              The tech-stack for this application is React.js, Node.js, Express.js and MSSQL DB. 
              Based on given excel sheets I created the database logic. The Back-End is implemented in Node.js ,
               Express.js library for setting up the server, as well as for the REST-APIs implementation.
@@ -34,9 +34,9 @@ export default {
 
     'mobile_apps':`Recently I started to implement mobile apps with React Native
              (e.g. Spotify, Instagram Clone) , with Expo and React-CLI, using JavaScript and TypeScript.
-              In my test applications (web and mobile) I started to work with GraphQL, which is a great 
-              alternative to the REST technology. Moreover I use AWS in my applications.
-             (Amplify, Cognito), alternatively using cloud technologies like Firebase and Netlify.`,
+              In my test applications (web and mobile) I started using GraphQL, which is a great 
+              alternative to the REST technology, as well as I started implementing AWS in my applications.
+             (Amplify, Cognito). Alternatively I use cloud technologies like Firebase and Netlify.`,
     
     'next_step':`Now I would like to bring my skills to the next level and work in a professional 
         environment using all the modern technologies: React (Native), GraphQL, Node, AWS, Docker , 
