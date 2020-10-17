@@ -46,6 +46,19 @@ const projects =[
 
 
     },
+    {
+        description:{
+
+            title:"Task manager for logistic department",
+            description:["", 
+            'Front-end: React.js','Back-end: Node.js, Express.js, MSSQL Database',
+            'Features', []
+        ],
+        },
+        techstack:['react','js_es6','node','express', 'mssql']
+
+
+    },
 
     
 

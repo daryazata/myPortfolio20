@@ -4,7 +4,7 @@ export default {
     'node': 'https://cdn.freebiesupply.com/logos/thumbs/2x/nodejs-1-logo.png', 
     'js_es6':'https://jsblog704552495.files.wordpress.com/2020/01/16407404782_8b9c57eab3.jpg',
     'ts':'https://media.vlpt.us/post-images/dongwon2/95f04080-3845-11e9-acb0-ebd80ec9a711/10ei2MOQxAzF7krm-v60wnQ.jpeg',
-    'express_js':'https://devtechnosys.com/insights/wp-content/uploads/2019/06/express-js-logo.png',
+    'express':'https://devtechnosys.com/insights/wp-content/uploads/2019/06/express-js-logo.png',
     'rest_api': 'http://verleihsystem.com/wp-content/uploads/2015/06/rest-api.png',
     'react_native':'https://www.econsor-mobile.de/wp-content/uploads/sites/2/2019/04/react_native_logo-845x600.jpg',
     'graphql':'https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/graphql.jpeg',

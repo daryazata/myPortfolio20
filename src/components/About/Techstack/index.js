@@ -9,7 +9,7 @@ export default function TechstackImage() {
     const techstack_list= Object.keys(techstacks).map((key, index)=>
         
  
-         <img key={index} className='my_stack_logo_middle' style={style.my_stack_logo} src={techstacks[key]} alt={key}></img>
+         <img key={index} className='my_stack_logo_middle' style={style.my_stack_logo} src={techstacks[key]} alt={key} title={key}></img>
     )
     return (
         <>
