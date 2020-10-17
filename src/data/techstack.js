@@ -10,7 +10,7 @@ export default {
     'graphql':'https://s3-us-west-2.amazonaws.com/assets.blog.serverless.com/graphql.jpeg',
     'aws':'https://securecdn.pymnts.com/wp-content/uploads/2017/03/AWS-Outage.png',
     'aws_amplify':'https://day-journal.com/memo/images/logo/amplify.png',
-    'firebase': 'https://firebase.google.com/downloads/brand-guidelines/PNG/logo-standard.png',
+    'firebase': 'https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png',
     'netlify':'https://www.netlify.com/img/press/logos/logomark.png',
     'gatsby':'https://images.ctfassets.net/ntiequ7mc6q6/6rkOXCpyvuekYIgy6U6gGu/c64b8803a624d55ead260b7a46d5f1b4/1_t5EnAu3eSWJA0rmZ9v3xuw.png?w=200&fl=progressive&q=100',
     'groovy':'https://career.guru99.com/wp-content/uploads/2014/12/groovy-logo-medium1.png',
@@ -26,6 +26,7 @@ export default {
     'c_sharp':'http://www.techbaz.org/Course/img/csharp-logo.png',
     'heroku':'https://a.slack-edge.com/80588/img/api/hosting_heroku.png',
     'aws_appsync':'https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS',
-    'aws_dynamo_db':'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/DynamoDB.png/220px-DynamoDB.png'
+    'aws_dynamo_db':'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/DynamoDB.png/220px-DynamoDB.png',
+    'aws_cognito':'https://cdn.freebiesupply.com/logos/thumbs/1x/aws-cognito-logo.png'
 
 }

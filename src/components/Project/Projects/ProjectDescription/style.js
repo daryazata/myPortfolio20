@@ -2,7 +2,7 @@ const style = {
 
     project:{
          borderRight: '.2rem solid black',
-        maxWidth:'30rem',
+        width:'30rem',
         // boxShadow: '4px 6px 6px -4px grey'
         padding:'1rem 2rem'
     },

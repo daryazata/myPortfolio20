@@ -14,8 +14,8 @@ const ProjectDescription = ({  description }) =>{
         <Paragraph text={description?.description}/>
        
        
-     {description?.live_demo && <button style={style.button_demo}> <a target="_blank" href={description?.live_demo}>Live Demo</a></button>} 
      {description?.github && <button style={style.button_demo}> <a target="_blank" href={description?.github}>Github</a></button>} 
+     {description?.live_demo && <button style={style.button_demo}> <a target="_blank" href={description?.live_demo}>Live Demo</a></button>} 
      
     </div>
 )} 

@@ -3,9 +3,22 @@ import React from 'react'
 export default function Paragraph({text}) {
 
     const text_display= text?.map((par, index)=>
-        <p key={index}>
-           {par} 
-        </p>
+        { if(par instanceof Array){
+
+        const li_elem= par.map((elem, index)=> <li key={index}>{elem}</li>)
+          return (
+              <ul>
+                  {li_elem}
+              </ul>
+          )  
+        }else{
+        
+            return (<p key={index}>
+            {par} 
+            </p>)
+
+        }
+        }
      ) 
 
     return (
