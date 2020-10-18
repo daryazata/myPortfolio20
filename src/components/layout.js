@@ -44,7 +44,7 @@ const Layout = ({ children }) => {
           //  marginTop: `3rem`, 
           backgroundColor:'hsl(195, 4.7%, 33.3%)',
           height:'7.5rem',
-          color:'#f9df31',
+          color:'white',
           textAlign:'center',
           padding:'1rem'    
           

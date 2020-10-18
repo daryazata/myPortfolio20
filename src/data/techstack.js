@@ -27,6 +27,8 @@ export default {
     'heroku':'https://a.slack-edge.com/80588/img/api/hosting_heroku.png',
     'aws_appsync':'https://media.graphcms.com/jN6lJfSgCNnGe6H5QGgS',
     'aws_dynamo_db':'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/DynamoDB.png/220px-DynamoDB.png',
-    'aws_cognito':'https://cdn.freebiesupply.com/logos/thumbs/1x/aws-cognito-logo.png'
+    'aws_cognito':'https://cdn.freebiesupply.com/logos/thumbs/1x/aws-cognito-logo.png',
+    'expo':'https://alxmrtnz.com/assets/posts/3-11-19/expo@2x.png',
+    'aws_s3':'https://d1ngwfo98ojxvt.cloudfront.net/images/blog/aws/s3_getting_started/AmazonS3.png'
 
 }

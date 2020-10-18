@@ -23,7 +23,8 @@ const Image = () => {
           }
         }
       }
-    }
+    },
+    
   `)
 
   if (!data?.placeholderImage?.childImageSharp?.fluid) {
