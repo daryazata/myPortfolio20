@@ -26,7 +26,8 @@ const projects =[
             title:"Real-time Blog Application built serverless with AWS and GraphQL",
             description:['This is a  real-time blogging application with serverless backend API.', `
              Front-End: React.js`, ` Back-End: AWS Amplify, AWS AppSync, GraphQL
-            `,`Features:`, ['Comments and likes' , 'Real-time subscriptions (AWS AppSync)', 'User authentications (Amazon Cognito)'] 
+            `,`Create your own credentials or use test login:`,`test_user, password: test_user`,
+            `Features:`, ['Comments and likes' , 'Real-time subscriptions (AWS AppSync)', 'User authentications (Amazon Cognito)'] 
             ],
             github:'https://github.com/daryazata/graphQl-amplify-blog',
             live_demo:'https://blogapi.d3c386nxpd4lys.amplifyapp.com/',
