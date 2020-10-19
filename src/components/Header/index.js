@@ -6,8 +6,8 @@ export default function MyHeader() {
         <header className="header">
         <div className="header__info">
             
-            <h1 className="header__info_h1">Hi, I'm Darya</h1>
-            <p>I'm a Fullstack Developer who loves to work with JavaScript  </p>
+            <h1 className="header__info_h1">Welcome to my portfolio website!</h1>
+            <p>I'm Darya, a Full-Stack Developer from Berlin who loves to work with JavaScript and it's frameworks  </p>
   
           </div>    
           <div className="banner--fadeBottom"></div>

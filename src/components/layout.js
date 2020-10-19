@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 import { AiOutlineMail} from 'react-icons/ai';
+import { FiLinkedin} from 'react-icons/fi';
 import { Link } from "gatsby"
 
 
@@ -49,9 +50,16 @@ const Layout = ({ children }) => {
           padding:'1rem'    
           
         }}>
-          © {new Date().getFullYear()}, Darya Zatakova
+        
        
-        <p style={{padding:'.3rem'}}> <a  href="mailto:darya.zata@outlook.com"><AiOutlineMail style={{color:'white', fontSize:'2.3rem', cursor:'pointer'}}/></a> </p>
+        <p style={{padding:'.3rem'}}> 
+        <span style={{marginRight:'1rem'}}> <a  href="mailto:darya.zata@outlook.com"><AiOutlineMail style={{color:'white', fontSize:'2.3rem', cursor:'pointer'}}/></a> </span>
+        <span> <a target="_blank" href="https://www.linkedin.com/in/darya-zatakova-88554119a/"><FiLinkedin style={{color:'white', fontSize:'2rem', cursor:'pointer'}}/></a> </span>
+        
+        
+        </p>
+
+        © {new Date().getFullYear()}, Darya Zatakova
         </footer>
       </div>
     </>

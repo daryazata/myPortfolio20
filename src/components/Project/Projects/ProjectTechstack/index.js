@@ -2,6 +2,8 @@ import React from 'react'
 import style from './style'
 import techstack_all from '../../../../data/techstack'
 import './style.css'
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 
 export default function ProjectTechstack({techstack}) {
@@ -14,7 +16,9 @@ export default function ProjectTechstack({techstack}) {
             if(key==ts){
 
                 return(
-                    <img className='stack_logo' key={index} title={key} style={style.image_techstack} src ={techstack_all[key]}/>
+                    <LazyLoadImage
+                    className='stack_logo' key={index} title={key} style={style.image_techstack} src ={techstack_all[key]}
+                    />
                 )
             }
         }
@@ -23,7 +27,6 @@ export default function ProjectTechstack({techstack}) {
 
     return (
         <div style={style.container}>
-            {/* <h3>ProjectTechstack</h3> */}
             {display_techstack}
         </div>
     )

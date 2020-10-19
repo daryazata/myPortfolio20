@@ -3,17 +3,19 @@ const projects =[
         description:{
 
             title:"My Portfolio Website",
-            description:['This is a  real-time blogging application with serverless backend API.', `
-             Front-End: React.js`, ` Back-End: AWS Amplify, AWS AppSync, GraphQL
-            `,`Features:`, ['Comments and likes' , 'Real-time subscriptions (AWS AppSync)', 'User authentications (Amazon Cognito)'] 
+            description:['This website is built with React.js and Gatsby', ' Gatsby is a React-based open source framework for creating websites and apps.',`
+             Front-End: React.js, Gatsby`, ` Deployed and hosted with Netlify
+            `,
+            // `Features:`, ['Comments and likes' , 'Real-time subscriptions (AWS AppSync)', 'User authentications (Amazon Cognito)'] 
             ],
+            github:'https://github.com/daryazata/myPortfolio20'
          
             
 
         },
 
         //1-react 2-node 5- amplify
-        techstack:['js_es6','react','netlify']
+        techstack:['js_es6','react',,'gatsby','netlify']
 
 
 
@@ -21,14 +23,14 @@ const projects =[
     {
         description:{
 
-            title:"Real-time Blog Application with AWS and GraphQL",
+            title:"Real-time Blog Application built serverless with AWS and GraphQL",
             description:['This is a  real-time blogging application with serverless backend API.', `
              Front-End: React.js`, ` Back-End: AWS Amplify, AWS AppSync, GraphQL
             `,`Features:`, ['Comments and likes' , 'Real-time subscriptions (AWS AppSync)', 'User authentications (Amazon Cognito)'] 
             ],
             github:'https://github.com/daryazata/graphQl-amplify-blog',
             live_demo:'https://blogapi.d3c386nxpd4lys.amplifyapp.com/',
-            screenshots:['https://portfolio-screenshorts-001.s3.eu-central-1.amazonaws.com/portfolio-screenshots/realtimeblog.PNG']
+            // screenshots:['https://portfolio-screenshorts-001.s3.eu-central-1.amazonaws.com/portfolio-screenshots/realtimeblog.PNG']
             
 
         },
@@ -59,10 +61,10 @@ const projects =[
     {
         description:{
 
-            title:"Spotify App Demo Clone with React Native",
-            description:["Spotify App Demo Clone, written in Typescript", 
-            'Implemented in React Native with Expo CLI',
-            'Features', ['Switch between songs','Play and pause songs']
+            title:"Spotify App Demo Clone built with React Native",
+            description:["Spotify App Demo Clone, implemented in Typescript", 
+            'Build with React Native and Expo CLI',
+            'Features:', ['Switch between songs','Play and pause songs']
         ],
         github:'https://github.com/daryazata/SpotifyClone',
         screenshots:[
@@ -80,12 +82,12 @@ const projects =[
     {
         description:{
 
-            title:"Instagram Clone",
-            description:["Spotify App Demo Clone, written in Typescript", 
-            'Implemented in React Native with Expo CLI',
-            'Features', ['Switch between songs','Play and pause songs']
+            title:"Instagram Demo Clone built with React Native ",
+            description:["Part 1 of an Instagram Clone App - UI ", "Implemented in Javascript", 
+            'Build with React Native and React Native CLI',
+            'Features:', ['Instagram stories','Feeds', 'Likes']
         ],
-        github:'https://github.com/daryazata/InstagramClone',
+        github:'https://github.com/daryazata/myInstagramClone',
         screenshots:[
             
             'https://portfolio-screenshorts-001.s3.eu-central-1.amazonaws.com/portfolio-screenshots/instagramClone/Simulator+Screen+Shot+-+iPhone+11+-+2020-10-18+at+20.02.07.png',
@@ -100,10 +102,15 @@ const projects =[
     {
         description:{
 
-            title:"Task manager for logistic department",
-            description:["", 
+            title:"Full-stack React -Node application, task manager for logistic department, ",
+            description:[`
+            I developed this web application as part of my bachelor thesis.
+            `, `UI and DB logic design`, 
             'Front-end: React.js','Back-end: Node.js, Express.js, MSSQL Database',
-            'Features', []
+            'Main features:', ['CRUD operations for all DB tables implemened in the UI',
+            'Intelligent task assignment according to the employee qualification ',
+            
+        ]
         ],
         },
         techstack:['react','js_es6','node','express', 'mssql']
@@ -113,11 +120,14 @@ const projects =[
     {
         description:{
 
-            title:"Node.js Terminal Application Webscraper",
-            description:["", 
-            'Front-end: React.js','Back-end: Node.js, Express.js, MSSQL Database',
-            'Features', []
+            title:"Node.js Terminal Application Web Scraper",
+            description:["This is a pure node terminal application.",
+            `A friend of mine who organizes international  Blockchain events asked me to create an 
+            application that would scrape relevant events from a webpage, so that he dont need to go manually though all the events. `, 
+          
+            'Features:', ['filter events according to the user input in the terminal','save results into a json file', `compares already existing results in the file and updates it only with new events`]
         ],
+        github:'https://github.com/daryazata/event-scrapper-01',
         screenshots:['https://portfolio-screenshorts-001.s3.eu-central-1.amazonaws.com/portfolio-screenshots/2020-10-18+20_55_57-JSON+Formatter%2C+Validator+and+Converter+Online.png']
         },
         techstack:['node','js_es6']

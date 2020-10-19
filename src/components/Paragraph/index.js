@@ -7,7 +7,7 @@ export default function Paragraph({text}) {
 
         const li_elem= par.map((elem, index)=> <li key={index}>{elem}</li>)
           return (
-              <ul>
+              < ul key={index*7} >
                   {li_elem}
               </ul>
           )  

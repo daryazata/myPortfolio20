@@ -15,7 +15,7 @@ import Slider from '../AwesomeSlider'
 
 
 const ProjectDescription = ({  description }) =>{
-  console.log(description?.description)
+  // console.log(description?.description)
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);

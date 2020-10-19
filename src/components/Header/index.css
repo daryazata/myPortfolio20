@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     /* font-family: 'Montserrat', sans-serif; */
-    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
     color:'white';
     /* background-image: linear-gradient(135deg,#02aab0,#00cdac); */
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
@@ -30,9 +30,9 @@
     );
   }
   .header__info_h1{
-    font-family: 'Courgette', cursive;
+    font-family: 'Dancing Script', cursive;
     /* text-align: center; */
-    font-size: 50px;
+    font-size: 55px;
   }
   
   .header__info{
@@ -42,6 +42,7 @@
     color: #fff;
     width: 70%;
     padding: 1rem 2rem ;
+    font-size: 28px;
 
   }
   
