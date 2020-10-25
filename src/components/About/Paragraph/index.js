@@ -15,7 +15,8 @@ export default function Paragraph() {
         // border:'.1rem solid white',
         // padding:'1rem',
         // borderRadius: '1rem',
-        fontFamily: 'Quicksand, sans-serif'
+        fontFamily: 'Caveat, cursive',
+        fontSize:'1.3rem'
     
     } }  key={index}  >{about_me[key]}</p>
     )

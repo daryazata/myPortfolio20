@@ -9,18 +9,18 @@ export default function TechstackImage() {
 
     const techstack_list= Object.keys(techstacks).map((key, index)=>
         
-    <LazyLoadImage className='my_stack_logo_middle'
-    key={index}
-    style={style.my_stack_logo}
-    src={techstacks[key]} 
-    alt={key} title={key}
-    />
+    // <LazyLoadImage className='my_stack_logo_middle'
+    // key={index}
+    // style={style.my_stack_logo}
+    // src={techstacks[key]} 
+    // alt={key} title={key}
+    // />
  
-        //  <img key={index} className='my_stack_logo_middle' style={style.my_stack_logo} src={techstacks[key]} alt={key} title={key}></img>
+          <img key={index} className='my_stack_logo_middle' style={style.my_stack_logo} src={techstacks[key]} alt={key} title={key}></img>
     )
     return (
         <>
-        <h2 style={{fontFamily: 'Quicksand, sans-serif',
+        <h2 style={{fontFamily: 'Caveat, cursive',
                         fontWeight:'bold',
                         margin:'3rem 0'
     

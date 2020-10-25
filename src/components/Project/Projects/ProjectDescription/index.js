@@ -26,7 +26,7 @@ const ProjectDescription = ({  description }) =>{
   return (
  
     <div className="project" style={style.project} >
-        <h2>{`${description?.title}:`}</h2>
+        <h2 style={style.project_h2}>{`${description?.title}:`}</h2>
         <Paragraph text={description?.description}/>
        
      {description?.github &&  <a target='_blank' style={{color:'tomato', marginRight:'1rem'}} title="github link" href={description?.github}><AiFillGithub style={{fontSize:'3rem'}}/></a>}

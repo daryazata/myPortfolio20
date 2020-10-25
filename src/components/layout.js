@@ -47,14 +47,15 @@ const Layout = ({ children }) => {
           height:'7.5rem',
           color:'white',
           textAlign:'center',
-          padding:'1rem'    
+          padding:'1rem',
+          fontFamily:'Caveat, cursive'    
           
         }}>
         
        
         <p style={{padding:'.3rem'}}> 
         <span style={{marginRight:'1rem'}}> <a  href="mailto:darya.zata@outlook.com"><AiOutlineMail style={{color:'white', fontSize:'2.3rem', cursor:'pointer'}}/></a> </span>
-        <span> <a target="_blank" href="https://www.linkedin.com/in/darya-zatakova-88554119a/"><FiLinkedin style={{color:'white', fontSize:'2rem', cursor:'pointer'}}/></a> </span>
+        <span> <a target="_blank" href="https://www.linkedin.com/in/darya-zatakova-88554119a/"><FiLinkedin style={{color:'white', fontSize:'2.2rem', cursor:'pointer'}}/></a> </span>
         
         
         </p>

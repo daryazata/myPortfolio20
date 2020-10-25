@@ -8,7 +8,7 @@ export default {
         margin: '4rem', 
         padding: '2rem',
         border: '5px solid black',
-        fontFamily: 'Sora, sans-serif',
+         fontFamily: 'Caveat, cursive',
         justifyContent:'space-around'
         // borderRadius:'1rem',
 

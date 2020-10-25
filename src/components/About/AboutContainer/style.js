@@ -16,7 +16,9 @@ export default {
     },
     container_h2:{
         // fontFamily:'Permanent Marker, sans-serif'
-        fontFamily:'Quicksand, sans-serif'
+         fontFamily:'Caveat, sans-serif'
+        //  font-family: 'Caveat', cursive;
+
     },
     my_stack_logo:{
         width:'5.5rem',

@@ -14,7 +14,8 @@ export default {
         margin:'2rem',
     },
     container__heade_h2:{
-        fontFamily: 'Courgette, cursive',
+        
+        fontFamily: 'Caveat, cursive',
         fontSize:'3.5rem',
         color:'#fff',
         // marginLeft:'13rem'

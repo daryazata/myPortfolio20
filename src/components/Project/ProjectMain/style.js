@@ -16,7 +16,7 @@ export default {
     },
     heading_h2:{
         fontSize:'60px',
-        fontFamily: 'Courgette, cursive',
+        fontFamily: 'Caveat, cursive',
         // fontFamily: 'Dancing Script, cursive',
 
     },

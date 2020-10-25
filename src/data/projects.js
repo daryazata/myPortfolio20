@@ -2,6 +2,27 @@ const projects =[
     {
         description:{
 
+            title:"Discord Clone build with React Redux",
+            description:['This is a Discord demo app, build with React Redux. You can login with your google credentials to this application, create new channels and leave messages.','Redux is a state mangement tool, that is commonly used with React. ',`
+             Front-end: React.js`, `Back-end: Firebase, Cloud Firestore noSQL DB`,` Deployed and hosted with Firebase
+            `,`Based on CleverProgrammer Tutorial`,
+            `Features:`, ['User Authentication with Google' , 'Real-time message update'] 
+            ],
+            github:'https://github.com/daryazata/discord-clone',
+            live_demo:'https://discord-clone-e2dfe.web.app/'
+            
+
+        },
+
+        //1-react 2-node 5- amplify
+        techstack:['js_es6','react','firebase']
+
+
+
+    },
+    {
+        description:{
+
             title:"My Portfolio Website",
             description:['This website is built with React.js and Gatsby', ' Gatsby is a React-based open source framework for creating websites and apps.',`
              Front-End: React.js, Gatsby`, ` Deployed and hosted with Netlify
