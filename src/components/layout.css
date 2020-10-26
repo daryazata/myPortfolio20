@@ -1,13 +1,19 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Dancing+Script:wght@600&family=Permanent+Marker&family=Sora:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chilanka&family=Playfair+Display&family=Quicksand&family=Source+Sans+Pro:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Advent+Pro:wght@400;500&family=Caveat:wght@400;700&family=Josefin+Sans:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+html{
+
+  font-family: 'Caveat', cursive;
+}
+
+
 body {
 	background: linear-gradient(-45deg, #d3623fa9, #ffb728a2, #c653539c, #9966338e);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
 }
+
+
 
 @keyframes gradient {
 	0% {
@@ -28,7 +34,6 @@ html {
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
-  font-family: 'Caveat', cursive;
   /* font-family: 'Montserrat', sans-serif; */
 }
 body {

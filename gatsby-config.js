@@ -4,6 +4,7 @@ module.exports = {
     description: `My Portfolio website that shows examples of my dope work.`,
     author: `@gatsbyjs`,
   },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -27,6 +28,30 @@ module.exports = {
         icon: `src/images/my-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Caveat`,
+          `cursive` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+    // {
+    //   resolve: `gatsby-plugin-prefetch-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: `Caveat`,
+    //         subsets: [`cursive`],
+    //         //  'Caveat', cursive;
+    //       },
+
+    //     ],
+    //   },
+    // }
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
