@@ -48,7 +48,8 @@ const Layout = ({ children }) => {
           color:'white',
           textAlign:'center',
           padding:'1rem',
-          fontFamily:'Caveat, cursive'    
+          fontFamily:'Caveat, cursive',
+          fontSize:'1.3rem'    
           
         }}>
         
