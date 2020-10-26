@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
           textAlign:'center',
           padding:'1rem',
           fontFamily:'Caveat, cursive',
-          fontSize:'1.3rem'    
+          fontSize:'1.28rem'    
           
         }}>
         
