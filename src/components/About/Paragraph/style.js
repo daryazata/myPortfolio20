@@ -13,6 +13,7 @@ export default {
         // maxWidth:'30rem',
         color:'gray',
          borderRadius: '1rem',
-         backgroundColor:'white'
+         backgroundColor:'white',
+         fontSize:' 1.3rem;'
     }
 }

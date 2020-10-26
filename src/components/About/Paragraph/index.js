@@ -16,7 +16,7 @@ export default function Paragraph() {
         // padding:'1rem',
         // borderRadius: '1rem',
         fontFamily: 'Caveat, cursive',
-        fontSize:'1.3rem'
+        fontSize:'1.36rem'
     
     } }  key={index}  >{about_me[key]}</p>
     )
