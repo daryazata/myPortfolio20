@@ -124,7 +124,7 @@ const projects =[
     {
         description:{
 
-            title:"Full-stack React -Node application, task manager for logistic department, ",
+            title:"Full-stack React -Node application, task manager for logistic department",
             description:[`
             I developed this web application as part of my bachelor thesis.
             `, `UI and DB logic design`, 
