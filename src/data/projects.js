@@ -145,7 +145,7 @@ const projects =[
             title:"Node.js Terminal Application Web Scraper",
             description:["This is a pure node terminal application.",
             `A friend of mine who organizes international  Blockchain events asked me to create an 
-            application that would scrape relevant events from a webpage, so that he dont need to go manually though all the events. `, 
+            application that would scrape relevant events from a webpage, to automate the manual search process. `, 
           
             'Features:', ['filter events according to the user input in the terminal','save results into a json file', `compares already existing results in the file and updates it only with new events`]
         ],
