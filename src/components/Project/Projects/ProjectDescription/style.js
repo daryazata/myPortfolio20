@@ -1,8 +1,7 @@
 const style = {
   project: {
-    borderRight: '.2rem solid black',
+    borderRight: '.13rem solid rgb(26, 59, 74, 0.6)',
     width: '30rem',
-    // boxShadow: '4px 6px 6px -4px grey'
     padding: '1rem 2rem',
   },
   project_h2: {

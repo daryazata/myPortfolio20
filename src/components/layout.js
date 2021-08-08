@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         <main style={{ flexGrow: 1 }}>{children}</main>
         <footer
           style={{
-            backgroundColor: 'hsl(195, 4.7%, 33.3%)',
+            backgroundColor: 'rgb(26, 59, 74, 0.6)',
             height: '7.5rem',
             color: 'white',
             textAlign: 'center',

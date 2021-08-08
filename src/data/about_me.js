@@ -20,7 +20,7 @@ export default {
    Based on given excel sheets I created database logic and the UI. The Back-End is powered with Node.js and Express.js,
     Front-end with React.js.`,
 
-  incloud: `By the of 2020 I started to work at Incloud (fully remote). Here I was involved in two TypeScript based projects, including the tech-stack Node, React and GraphQL using GitLab and Azure ticket workflow.`,
+  incloud: `By the of 2020 I started to work at Incloud (fully remote). Here I was involved in two TypeScript based projects, including the techstack Node, React and GraphQL using GitLab and Azure ticket workflow.`,
 
   hybrid_heroes: `At my current company -Hybrid Heroes- I work in App Development using TS-based React Native for iOS and android devices. `,
   next_step: `I'm interested in fullstack development (web & app) as well as in DevOps, CI/CD , Docker , Kubernetes.. :3`,

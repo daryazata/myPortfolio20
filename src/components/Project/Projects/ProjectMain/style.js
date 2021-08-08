@@ -1,14 +1,14 @@
 export default {
   container: {
     display: 'flex',
-    backgroundColor: '#fff',
+    backgroundColor: 'rgb(157, 192, 209, 0.4)',
     width: '60%',
+    color: ' #fff',
     minHeight: '23rem',
     margin: '4rem',
     padding: '2rem',
-    border: '5px solid #8bacbb',
     fontFamily: 'Caveat, cursive',
     justifyContent: 'space-around',
-    // borderRadius:'1rem',
+    borderRadius: '.5rem',
   },
 }
