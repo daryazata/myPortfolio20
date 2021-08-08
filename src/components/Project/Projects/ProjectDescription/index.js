@@ -1,19 +1,15 @@
-import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React, { useState } from 'react'
 import style from './style'
-import { BsBraces } from 'react-icons/bs'
 import { AiFillGithub } from 'react-icons/ai'
 import { CgMediaLive } from 'react-icons/cg'
 import { RiScreenshot2Line } from 'react-icons/ri'
-import { BiPhotoAlbum } from 'react-icons/bi'
 import Paragraph from '../../../Paragraph'
 import { Modal, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Slider from '../AwesomeSlider'
 
 const ProjectDescription = ({ description }) => {
-  // console.log(description?.description)
   const [show, setShow] = useState(false)
 
   const handleClose = () => setShow(false)
@@ -27,6 +23,7 @@ const ProjectDescription = ({ description }) => {
       {description?.github && (
         <a
           target="_blank"
+          rel="noreferrer"
           style={{ color: 'tomato', marginRight: '1rem' }}
           title="github link"
           href={description?.github}
@@ -37,6 +34,7 @@ const ProjectDescription = ({ description }) => {
       {description?.live_demo && (
         <a
           target="_blank"
+          rel="noreferrer"
           style={{ color: 'tomato', marginRight: '1rem' }}
           title="online demo"
           href={description?.live_demo}

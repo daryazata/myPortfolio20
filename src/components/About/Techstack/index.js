@@ -12,7 +12,7 @@ export default function TechstackImage() {
       src={techstacks[key]}
       alt={key}
       title={key}
-    ></img>
+    />
   ))
   return (
     <>
