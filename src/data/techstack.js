@@ -1,5 +1,4 @@
 export default {
-  c_sharp: 'http://www.techbaz.org/Course/img/csharp-logo.png',
   php: 'http://php.net/images/logos/new-php-logo.svg',
   yii:
     'https://www.netgains.org/wp-content/uploads/2014/01/YII-Development-Company-India.gif',
@@ -11,9 +10,7 @@ export default {
   css: 'https://fuzati.com/wp-content/uploads/2016/12/CSS-Logo.png',
   bootstrap:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/220px-Bootstrap_logo.svg.png',
-  sass: 'https://cdn-images-1.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png',
-  java:
-    'https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon-700x392.png',
+
   groovy:
     'https://career.guru99.com/wp-content/uploads/2014/12/groovy-logo-medium1.png',
   js_es6:

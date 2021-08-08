@@ -63,5 +63,5 @@ a:hover,
 a:focus,
 a:active {
   text-decoration: none;
-  color: #8bacbb;
+  color: rgb(157, 192, 209);
 }

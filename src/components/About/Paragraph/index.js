@@ -1,24 +1,30 @@
-//react-native rfn
-//react rfc
-
 import React from 'react'
 import about_me from '../../../data/about_me'
 import style from './style'
 
 export default function Paragraph() {
+  const checkForLink = key => {
+    const textWithoutLink = about_me[key].desc.split(about_me[key].linkText)
+
+    return (
+      <p>
+        {textWithoutLink[0]}
+        <a target="_blank" href={about_me[key].link}>
+          {about_me[key].linkText}
+        </a>
+        {textWithoutLink[1]}
+      </p>
+    )
+  }
   const paragraph_list = Object.keys(about_me).map((key, index) => (
     <p
       style={{
-        // backgroundColor:`rgba(123, ${index*23}, 153, 0.05)`,
-        // border:'.1rem solid white',
-        // padding:'1rem',
-        // borderRadius: '1rem',
         fontFamily: 'Caveat, cursive',
         fontSize: '1.36rem',
       }}
       key={index}
     >
-      {about_me[key]}
+      {checkForLink(key)}
     </p>
   ))
   return (
