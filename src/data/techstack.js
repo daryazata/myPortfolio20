@@ -11,7 +11,7 @@ export default {
   css: 'https://fuzati.com/wp-content/uploads/2016/12/CSS-Logo.png',
   bootstrap:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/220px-Bootstrap_logo.svg.png',
-  sass: 'http://rightblog.ru/wp-content/uploads/2015/09/sass-logo.png',
+  sass: 'https://cdn-images-1.medium.com/max/512/1*9U1toerFxB8aiFRreLxEUQ.png',
   java:
     'https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon-700x392.png',
   groovy:
