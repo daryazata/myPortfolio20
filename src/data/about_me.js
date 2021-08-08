@@ -14,12 +14,13 @@ export default {
      related field. I also implemented a landing page and a cookie banner using PHP, JS, CSS and SASS.`,
 
   tentamus: `At Tentamus Analytics GmbH I was working on creating and improving existing interfaces in Groovy (Java dialect).
-    I also worked on the deployment of an existing React Native app to a productive server, making the app available for users on android devices.`,
+    I also worked on the deployment of an existing React Native app to production server, making the app available for users on android devices.`,
 
-  BA: `During my bachelor thesis I implemented a full-stack React - Node web application for the company’s logistic department. Based on given excel sheets I created database logic and the UI. The Back-End is implemented in Node.js with Express.js library for setting up the server,
-    as well as for the REST-APIs implementation. Front-end was implemented in React.js using modern JavaScript with ES6 features.`,
+  BA: `During my bachelor thesis I implemented a full-stack React - Node web application for the company’s logistic department.
+   Based on given excel sheets I created database logic and the UI. The Back-End is powered with Node.js and Express.js,
+    Front-end with React.js.`,
 
-  incloud: `By the of 2020 I started to work at Incloud (fully remote). Here I was involved in two TypeScript based projects, including the tech-stack Node, React and GraphQL using GitLab and Azure ticket workflow`,
+  incloud: `By the of 2020 I started to work at Incloud (fully remote). Here I was involved in two TypeScript based projects, including the tech-stack Node, React and GraphQL using GitLab and Azure ticket workflow.`,
 
   hybrid_heroes: `At my current company -Hybrid Heroes- I work in App Development using TS-based React Native for iOS and android devices. `,
   next_step: `I'm interested in fullstack development (web & app) as well as in DevOps, CI/CD , Docker , Kubernetes.. :3`,

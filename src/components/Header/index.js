@@ -10,6 +10,24 @@ export default function MyHeader() {
           I'm Darya, a Full-Stack Developer from Berlin who loves to work with
           JavaScript, it's libraries and frameworks.
         </p>
+        <p className="photo__info">
+          Background{' '}
+          <a
+            className="anchor__info"
+            target="_blank"
+            href="https://unsplash.com/photos/o5NY_TysZ2Q"
+          >
+            photo
+          </a>{' '}
+          by{' '}
+          <a
+            target="_blank"
+            href="https://unsplash.com/@jaspergarrattphotography"
+            className="anchor__info"
+          >
+            Jasper Garratt{' '}
+          </a>
+        </p>
       </div>
       <div className="banner--fadeBottom"></div>
     </header>

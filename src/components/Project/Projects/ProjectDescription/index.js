@@ -24,7 +24,7 @@ const ProjectDescription = ({ description }) => {
         <a
           target="_blank"
           rel="noreferrer"
-          style={{ color: 'tomato', marginRight: '1rem' }}
+          style={{ color: '#8bacbb;', marginRight: '1rem' }}
           title="github link"
           href={description?.github}
         >
@@ -35,7 +35,7 @@ const ProjectDescription = ({ description }) => {
         <a
           target="_blank"
           rel="noreferrer"
-          style={{ color: 'tomato', marginRight: '1rem' }}
+          style={{ color: '#8bacbb;', marginRight: '1rem' }}
           title="online demo"
           href={description?.live_demo}
         >

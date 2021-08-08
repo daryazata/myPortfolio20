@@ -43,3 +43,25 @@
   font-size: 28px;
   font-family: 'Caveat', cursive;
 }
+
+.photo__info {
+  font-size: 20px;
+  color: rgba(215, 225, 233, 0.372);
+}
+
+.anchor__info {
+  text-decoration: 'none';
+  color: #8bacbb;
+}
+
+a:focus {
+  text-decoration: 'none';
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: #8bacbb;
+}

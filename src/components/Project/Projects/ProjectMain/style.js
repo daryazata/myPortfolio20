@@ -6,7 +6,7 @@ export default {
     minHeight: '23rem',
     margin: '4rem',
     padding: '2rem',
-    border: '5px solid black',
+    border: '5px solid #8bacbb',
     fontFamily: 'Caveat, cursive',
     justifyContent: 'space-around',
     // borderRadius:'1rem',
