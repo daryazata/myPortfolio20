@@ -1,8 +1,5 @@
 const style = {
   container: {
-    // border: '.1rem solid black',
-    // padding:'3rem'
-    // boxShadow: '4px 6px 6px -4px grey'
     padding: '.7rem',
     paddingLeft: '3rem',
     width: '25rem',

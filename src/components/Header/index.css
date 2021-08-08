@@ -1,8 +1,6 @@
 .header {
   background-image: url('../../images/jasper-garratt-o5NY_TysZ2Q-unsplash.jpg');
   min-height: 90vh;
-  /* height: 100%;  */
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,10 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-family: 'Dancing Script', cursive; */
   color: 'white';
-  /* background-image: linear-gradient(135deg,#02aab0,#00cdac); */
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }
 
@@ -28,7 +23,6 @@
   );
 }
 .header__info_h1 {
-  /* text-align: center; */
   font-size: 55px;
   font-family: 'Caveat', cursive;
 }

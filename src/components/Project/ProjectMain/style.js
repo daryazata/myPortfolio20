@@ -1,7 +1,4 @@
 export default {
-  section: {
-    //    backgroundColor:'grey',
-  },
   heading: {
     paddingLeft: '15rem',
     paddingTop: '3rem',
@@ -10,7 +7,6 @@ export default {
   heading_h2: {
     fontSize: '60px',
     fontFamily: 'Caveat, cursive',
-    // fontFamily: 'Dancing Script, cursive',
   },
   body: {
     display: 'flex',

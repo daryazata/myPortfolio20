@@ -1,7 +1,6 @@
 import React from 'react'
 import AboutContainer from './AboutContainer'
 import style from './style'
-//  import './style.css'
 
 export default function About() {
   return (

@@ -14,7 +14,6 @@ export default function Paragraph({ text }) {
         <p
           style={{
             fontSize: '1.25rem',
-            //  backgroundColor:'blue', color:'red'
           }}
           key={index}
         >
