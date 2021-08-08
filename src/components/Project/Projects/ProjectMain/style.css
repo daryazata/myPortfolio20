@@ -1,10 +1,11 @@
-
-.container{
-     /* background-image: linear-gradient(135deg,#02aab0,#00cdac);
+.container {
+  /* background-image: linear-gradient(135deg,#02aab0,#00cdac);
     clip-path: polygon(0 0,100% 0,100% 80%,0 100%); */
-    transition: transform .3s; /* Animation */
+  transition: transform 0.3s; /* Animation */
 }
 
 .container:hover {
-    transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  }
+  transform: scale(
+    1.04
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

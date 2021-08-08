@@ -33,11 +33,11 @@ module.exports = {
       options: {
         fonts: [
           `Caveat`,
-          `cursive` // you can also specify font weights and styles
+          `cursive`, // you can also specify font weights and styles
         ],
-        display: 'swap'
-      }
-    }
+        display: 'swap',
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
