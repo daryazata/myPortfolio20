@@ -7,7 +7,7 @@ export default {
   js:
     'http://pluspng.com/img-png/logo-javascript-png-java-script-js-logo-format-ai-javascript-logo-vector-png-213.png',
   html: 'http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png',
-  css: 'https://fuzati.com/wp-content/uploads/2016/12/CSS-Logo.png',
+  css: 'http://tecnologiaenvivo.com/wp-content/uploads/2013/12/logo_CSS3-1.png',
   bootstrap:
     'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/220px-Bootstrap_logo.svg.png',
 
@@ -29,8 +29,7 @@ export default {
     'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/DynamoDB.png/220px-DynamoDB.png',
   aws_cognito:
     'https://cdn.freebiesupply.com/logos/thumbs/1x/aws-cognito-logo.png',
-  aws_s3:
-    'https://d1ngwfo98ojxvt.cloudfront.net/images/blog/aws/s3_getting_started/AmazonS3.png',
+  aws_s3: 'https://vectorified.com/images/aws-s3-icon-9.png',
   heroku: 'https://a.slack-edge.com/80588/img/api/hosting_heroku.png',
   firebase:
     'https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png',
@@ -38,8 +37,11 @@ export default {
     'https://media.vlpt.us/post-images/dongwon2/95f04080-3845-11e9-acb0-ebd80ec9a711/10ei2MOQxAzF7krm-v60wnQ.jpeg',
   expo: 'https://alxmrtnz.com/assets/posts/3-11-19/expo@2x.png',
   react_native:
-    'https://www.econsor-mobile.de/wp-content/uploads/sites/2/2019/04/react_native_logo-845x600.jpg',
+    'https://www.onu.ro/wp/wp-content/uploads/2020/03/react-native-logo-768x890.png',
   gatsby:
     'https://images.ctfassets.net/ntiequ7mc6q6/6rkOXCpyvuekYIgy6U6gGu/c64b8803a624d55ead260b7a46d5f1b4/1_t5EnAu3eSWJA0rmZ9v3xuw.png?w=200&fl=progressive&q=100',
-  netlify: 'https://www.netlify.com/img/press/logos/logomark.png',
+  netlify:
+    'https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png',
+  material_ui:
+    'https://opencollective-production.s3.us-west-1.amazonaws.com/ada636e0-395b-11ea-8ab7-b3f0317bbc7c.png',
 }

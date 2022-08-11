@@ -15,7 +15,7 @@ const projects = [
         ['User Authentication with Google', 'Real-time message update'],
       ],
       github: 'https://github.com/daryazata/discord-clone',
-      live_demo: 'https://discord-clone-e2dfe.web.app/',
+      live_demo: 'https://daryazata.github.io/discord-clone/',
     },
 
     //1-react 2-node 5- amplify
@@ -89,7 +89,7 @@ const projects = [
       ],
 
       github: 'https://github.com/daryazata/Netflix_Clone',
-      live_demo: 'https://netflix-clone-1a0d8.web.app/',
+      live_demo: 'https://daryazata.github.io/Netflix_Clone/',
       screenshots: [
         'https://portfolio-screenshorts-001.s3.eu-central-1.amazonaws.com/portfolio-screenshots/netflix_demo.PNG',
       ],
