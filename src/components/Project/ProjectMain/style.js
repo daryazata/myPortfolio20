@@ -1,7 +1,6 @@
 export default {
   heading: {
-    paddingLeft: '15rem',
-    paddingTop: '3rem',
+    paddingBottom: '0.6rem',
     color: 'white',
   },
   heading_h2: {
@@ -14,5 +13,13 @@ export default {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
+  },
+  container: {
+    marginTop: '6rem',
+    minHeight: '50vh',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    flexDirection: 'column',
   },
 }

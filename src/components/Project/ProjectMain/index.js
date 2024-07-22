@@ -1,20 +1,24 @@
 import React from 'react'
 
-import style from './style'
 import projects from '../../../data/projects'
 import OneProjectMain from '../Projects/ProjectMain'
+import style from './style'
 
-export default function ProjectMain() {
+export default function ProjectMain(props) {
   const display_projects = projects.map((project, index) => (
-    <OneProjectMain key={index} project={project} />
+    <OneProjectMain
+      dataTechstackIcons={props.dataTechstackIcons}
+      key={index}
+      project={project}
+    />
   ))
 
   return (
-    <section>
+    <section style={style.container}>
       <div style={style.heading}>
         <h2 style={style.heading_h2}>{`<Projects/>`}</h2>
       </div>
-      <div style={style.body}>{display_projects}</div>
+      {display_projects}
     </section>
   )
 }

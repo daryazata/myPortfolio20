@@ -1,5 +1,6 @@
 import React from 'react'
 import about_me from '../../../data/about_me'
+import '../../Header/index.css'
 
 export default function Paragraph() {
   const checkForLink = key => {
@@ -8,7 +9,11 @@ export default function Paragraph() {
     return (
       <>
         {textWithoutLink[0]}
-        <a target="_blank" href={about_me[key].link}>
+        <a
+          style={{ textDecoration: 'none', color: '#100c08' }}
+          target="_blank"
+          href={about_me[key].link}
+        >
           {about_me[key].linkText}
         </a>
         {textWithoutLink[1]}

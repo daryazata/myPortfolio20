@@ -1,9 +1,22 @@
-.my_stack_logo_middle{
+.my_stack_logo_middle {
+  -webkit-transition: -webkit-transform 1s;
+  flex: 1 1 200px;
+  max-width: 130px;
 
-    -webkit-transition: -webkit-transform 1s;
+  padding: 10px;
+  margin: 5px;
+  align-self: baseline;
 }
 
-.my_stack_logo_middle:hover{
-    -webkit-transform: rotate(360deg) translate(0);
+.my_stack_logo_middle:hover {
+  -webkit-transform: rotate(360deg) translate(0);
+}
 
+.container-images-ts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+img {
+  margin-bottom: 0 !important;
 }

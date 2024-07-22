@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Darya Zatakova`,
+    title: `Darya Zata`,
     description: `My Portfolio website that shows examples of my dope work.`,
     author: `@gatsbyjs`,
   },
@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

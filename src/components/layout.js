@@ -16,8 +16,8 @@ const data = useStaticQuery(graphql`
   `)
  */
 
-import React from 'react'
 import PropTypes from 'prop-types'
+import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { FiLinkedin } from 'react-icons/fi'
 
@@ -47,7 +47,7 @@ const Layout = ({ children }) => {
         >
           <p style={{ padding: '.3rem' }}>
             <span style={{ marginRight: '1rem' }}>
-              <a href="mailto:darya.zata@outlook.com">
+              <a href="mailto:darya.zata@gmail.com">
                 <AiOutlineMail
                   style={{
                     color: 'white',
@@ -61,7 +61,7 @@ const Layout = ({ children }) => {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://www.linkedin.com/in/darya-zatakova-88554119a/"
+                href="https://www.linkedin.com/in/darya-zata-88554119a/"
               >
                 <FiLinkedin
                   style={{
@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
               </a>
             </span>
           </p>
-          © {new Date().getFullYear()}, Darya Zatakova
+          © {new Date().getFullYear()}, Darya Zata
         </footer>
       </div>
     </>
