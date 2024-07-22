@@ -4,11 +4,14 @@ import ProjectTechstack from '../ProjectTechstack'
 import style from './style'
 import './style.css'
 
-export default function OneProjectMain({ project }) {
+export default function OneProjectMain(props) {
   return (
     <div className="container" style={style.container}>
-      <ProjectDescription description={project.description} />
-      <ProjectTechstack techstack={project.techstack} />
+      <ProjectDescription description={props.project.description} />
+      <ProjectTechstack
+        dataTechstackIcons={props.dataTechstackIcons}
+        techstack={props.project.techstack}
+      />
     </div>
   )
 }

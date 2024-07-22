@@ -1,19 +1,24 @@
+import Img from 'gatsby-image'
 import React from 'react'
-import techstacks from '../../../data/techstack'
-import style from './style'
+import techstack_all from '../../../data/techstack'
 import './style.css'
 
-export default function TechstackImage() {
-  const techstack_list = Object.keys(techstacks).map((key, index) => (
-    <img
-      key={index}
-      className="my_stack_logo_middle"
-      style={style.my_stack_logo}
-      src={techstacks[key]}
-      alt={key}
-      title={key}
-    />
-  ))
+export default function TechstackImage(props) {
+  const techstack_list = Object.keys(techstack_all).map(key => {
+    const image = props.dataTechstackIcons.allFile.edges.find(edge =>
+      edge.node.relativePath.includes(techstack_all[key]),
+    )
+
+    return (
+      <div key={crypto.randomUUID()} className="my_stack_logo_middle">
+        {image.node.publicURL ? (
+          <img src={image.node.publicURL} alt={key} />
+        ) : (
+          <Img fluid={image.node.childImageSharp.fluid} alt={key} />
+        )}
+      </div>
+    )
+  })
   return (
     <>
       <h2
@@ -25,7 +30,7 @@ export default function TechstackImage() {
       >
         Technologies I worked with:
       </h2>
-      <div>{techstack_list}</div>
+      <div className="container-images-ts">{techstack_list}</div>
     </>
   )
 }
