@@ -6,7 +6,7 @@ export default {
   htw: {
     link: 'https://www.htw-berlin.de/',
     linkText: 'Hochschule für Technik und Wirtschaft- HTW',
-    desc: `Early this year I finally finished my studies in Environmental Computer Science (B.Sc.)
+    desc: `I studied Environmental Computer Science (B.Sc.)
      at the University of Applied Sciences - Hochschule für Technik und Wirtschaft- HTW in Berlin.`,
   },
 

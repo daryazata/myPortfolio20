@@ -6,7 +6,7 @@ export default {
   html: 'html.png',
   css: 'css.png',
   bootstrap: 'bootstrap.png',
-
+  c_sharp: 'csharp-logo.png',
   groovy: 'groovy.png',
   js_es6: 'js_es6.jpg',
   react: 'react.png',
