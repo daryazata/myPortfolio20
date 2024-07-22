@@ -73,7 +73,7 @@ const Layout = ({ children }) => {
               </a>
             </span>
           </p>
-          © {new Date().getFullYear()}, Darya Zata
+          <p>© 2020 - {new Date().getFullYear()}, Darya Zata</p>
         </footer>
       </div>
     </>
