@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Darya Zata`,
     description: `My Portfolio website that shows examples of my dope work.`,
-    author: `@gatsbyjs`,
+    author: `Darya Zata`,
   },
 
   pathPrefix: '/myPortfolio20',
