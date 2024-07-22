@@ -10,7 +10,7 @@ export default function TechstackImage(props) {
     )
 
     return (
-      <div key={crypto.randomUUID()} className="my_stack_logo_middle">
+      <div key={key} className="my_stack_logo_middle">
         {image.node.publicURL ? (
           <img src={image.node.publicURL} alt={key} />
         ) : (

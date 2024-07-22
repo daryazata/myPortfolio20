@@ -5,6 +5,8 @@ module.exports = {
     author: `@gatsbyjs`,
   },
 
+  pathPrefix: '/myPortfolio20',
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

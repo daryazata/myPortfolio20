@@ -27,6 +27,7 @@
     "react-lazy-load-image-component": "^1.6.2"
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "prettier": "3.3.3"
   },
   "keywords": [
@@ -40,8 +41,11 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public"
   },
+  "homepage": "https://daryazata.github.io/myPortfolio20/",
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
